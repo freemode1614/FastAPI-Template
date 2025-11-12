@@ -1,2 +1,9 @@
-annotations:
-  backstage.io/techdocs-ref: dir:.
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: example
+  namespace: default
+  title: Example
+  description: This is the parent entity
+  annotations:
+    backstage.io/techdocs-ref: dir:.
